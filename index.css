@@ -12,7 +12,7 @@ html,body{
     align-items: center;
     row-gap: 3rem;
     min-width: 600px;
-    cursor: pointer;
+    
 }
 
 .container .box{
@@ -23,6 +23,7 @@ html,body{
     border-radius: 20px;
     box-shadow: 10px 10px 30px gray;
     transition: transform 700ms;
+    cursor: pointer;
 }
 
 .container .box:hover{
