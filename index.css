@@ -3,8 +3,10 @@
 html,body{
     margin:0px;
     padding:0px;
-    padding: 1rem;
-    font-family: 'Inconsolata', monospace;}
+    font-family: 'Inconsolata', monospace;
+    padding-bottom:1rem;
+    font-size: 16px;
+}
 
 .container{
     display: flex;
@@ -12,7 +14,6 @@ html,body{
     align-items: center;
     row-gap: 3rem;
     min-width: 600px;
-    
 }
 
 .container .box{
@@ -24,6 +25,8 @@ html,body{
     box-shadow: 10px 10px 30px gray;
     transition: transform 700ms;
     cursor: pointer;
+    margin-top: 4rem;
+    z-index: 1;
 }
 
 
@@ -58,4 +61,57 @@ a{
     height: 15rem;
     background-size:100%;
     background-repeat: no-repeat;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0px;
+    z-index: 2;
+}
+
+.navbar-nav{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    background: black;
+    height: 3rem;
+    margin-top: 0;
+}
+
+
+.navbar .navbar-nav .nav-items{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar .navbar-nav .nav-hover{
+    transition: transform 500ms ease;
+    opacity: 0.9;
+}
+
+
+
+.navbar .navbar-nav .nav-items:nth-child(2){
+    margin-left: auto;
+}
+
+.navbar .navbar-nav .nav-hover:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.navbar .navbar-nav .nav-items a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-nav .nav-items:first-child{
+    text-transform: uppercase;
+    font-size: x-large;
 }
