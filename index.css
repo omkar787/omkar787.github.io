@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+html,body{
+    margin:0px;
+    padding:0px;
+    padding: 1rem;
+    font-family: 'Inconsolata', monospace;}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+    min-width: 600px;
+    cursor: pointer;
+}
+
+.container .box{
+    height: 20rem;
+    width: 23rem;
+    padding: 1rem;
+    background-color: rgb(181, 228, 240);    
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px gray;
+    transition: transform 700ms;
+}
+
+.container .box:hover{
+    transform: scale(1.1);
+}
+
+.one{
+    background: url(./Num-Guess-Game.jpg);
+}
+
+.two{
+    background: url(./Random-hex.jpg);
+}
+
+.image{
+    height: 15rem;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.desc{
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
