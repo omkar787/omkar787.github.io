@@ -16,8 +16,8 @@ html,body{
 }
 
 .container .box{
-    height: 20rem;
-    width: 23rem;
+    height: 19rem;
+    width: 20rem;
     padding: 1rem;
     background-color: rgb(181, 228, 240);    
     border-radius: 20px;
@@ -25,6 +25,7 @@ html,body{
     transition: transform 700ms;
     cursor: pointer;
 }
+
 
 .container .box:hover{
     transform: scale(1.1);
@@ -38,11 +39,7 @@ html,body{
     background: url(./Random-hex.jpg);
 }
 
-.image{
-    height: 15rem;
-    background-size:100%;
-    background-repeat: no-repeat;
-}
+
 
 .desc{
     text-decoration: none;
@@ -50,8 +47,15 @@ html,body{
     font-size: 2em;
     font-weight: bold;
     color: black;
+    margin-top: 0px;
 }
 
 a{
     text-decoration: none;
+}
+
+.image{
+    height: 15rem;
+    background-size:100%;
+    background-repeat: no-repeat;
 }
