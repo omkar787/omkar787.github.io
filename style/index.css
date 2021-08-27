@@ -6,7 +6,7 @@ body{
     margin: 0;
     font-family: 'Inconsolata', monospace;
     font-size: 16px;
-    min-width: 600px;
+    min-width: 800px;
 }
 
 .container{
@@ -156,3 +156,47 @@ a{
     font-weight: bold;
     margin-bottom: 3rem;
 }
+
+.myFooter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 5rem;
+}
+
+
+
+.myFooter .socialIcons{
+    margin-left: 2rem;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: filter,opacity 600ms ease;
+}
+
+svg{
+    fill:#000;
+}
+.myFooter .socialIcons:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+.github{
+    width: 3rem;
+    height: 3rem;
+    background: url(../img/github.svg);
+    background-size: cover;
+}
+
+
+
+.twitter{
+    width: 3rem;
+    height: 3rem;
+    background: url(../img/twitter.svg);
+    background-size: cover;}
+
+.linkedin{
+    width: 3rem;
+    height: 3rem;
+    background: url(../img/linkedin.svg);
+    background-size: cover;}
