@@ -35,11 +35,11 @@ html,body{
 }
 
 .one{
-    background: url(./img/Num-Guess-Game.jpg);
+    background: url(../img/Num-Guess-Game.jpg);
 }
 
 .two{
-    background: url(./img/Random-hex.jpg);
+    background: url(../img/Random-hex.jpg);
 }
 
 
